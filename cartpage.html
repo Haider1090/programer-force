@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Add some basic styling */
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        
+        .navbar a:hover {
+            background-color: #555;
+        }
+        
+        h2 {
+            color: #333;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th,
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #f9f9f9;
+            text-align: left;
+        }
+        
+        td img {
+            width: 50px;
+            height: auto;
+        }
+        
+        td.text-center {
+            text-align: center;
+        }
+        
+        .total {
+            margin-top: 20px;
+            text-align: right;
+            font-weight: bold;
+        }
+        
+        .total span {
+            color: #f00;
+        }
+        
+        header {
+            background-color: rgb(228, 209, 209);
+            color: rgb(81, 17, 17);
+            padding: 5px;
+            text-align: center;
+        }
+        
+        footer {
+            background-color: rgb(21, 5, 5);
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+            bottom: 0;
+            width: auto;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>E-commerce Website</h1>
+    </header>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Categorypage.html">Categories</a> </li>
+            <li><a href="cartpage.html">Cart</a></li>
+            <li><a href="pm.html">Payment</a></li>
+        </ul>
+    </div>
+    <h2>Cart</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="product1.jpg" alt="Product 1"></td>
+                <td>Product 1</td>
+                <td>2000</td>
+                <td class="text-center">2</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <td><img src="product2.jpg" alt="Product 2"></td>
+                <td>Product 2</td>
+                <td>3500</td>
+                <td class="text-center">1</td>
+                <td>3500</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="total">
+        Total: <span>7500 pkr</span>
+    </div>
+    <footer>
+        <p>&copy; 2023 E-commerce Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

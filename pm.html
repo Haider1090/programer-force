@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Add some basic styling */
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        
+        .navbar a:hover {
+            background-color: #555;
+        }
+        
+        .payment-methods {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .payment-method {
+            width: 200px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            text-align: center;
+        }
+        
+        .payment-method:hover {
+            background-color: #f9f9f9;
+            cursor: pointer;
+        }
+        
+        .payment-method img {
+            width: 100%;
+            height: auto;
+        }
+        
+        header {
+            background-color: rgb(228, 209, 209);
+            color: rgb(81, 17, 17);
+            padding: 5px;
+            text-align: center;
+        }
+        
+        footer {
+            background-color: rgb(21, 5, 5);
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+            bottom: 0;
+            width: auto;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> E-commerce Website</h1>
+    </header>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Categorypage.html">Categories</a> </li>
+            <li><a href="cartpage.html">Cart</a></li>
+            <li><a href="pm.html">Payment</a></li>
+
+        </ul>
+    </div>
+    <h2>Select Payment Method</h2>
+
+    <div class="payment-method">
+        <img src="creditcard.avif" alt="Credit Card">
+        <a href="paymentpage.html">
+            <h3>Credit Card</h3>
+        </a>
+
+    </div>
+    <div class="payment-method">
+        <img src="cod.avif" alt="PayPal">
+        <a href="cashondelpage.html">
+            <h3>Cash On Delivery</h3>
+        </a>
+    </div>
+    <footer>
+        <p>&copy; 2023 E-commerce Website. All rights reserved.</p>
+    </footer>
+</body>
+
+
+</html>
